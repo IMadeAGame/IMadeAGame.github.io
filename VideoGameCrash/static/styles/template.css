@@ -1,0 +1,139 @@
+html * {
+    font-family: 'Century Gothic' !important; /*Fixed font not showing up*/
+}
+
+body {
+    background-color: rgb(0, 0, 0) !important; /*Fixed background not showing up*/
+}
+
+.titleimage{
+    position: fixed;
+    right: 0px;
+    top: 0px; 
+    width: 100%;
+    height: 100%;
+}
+
+.topbar{
+    background-color: #252525;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 5%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.topbar a {
+    color: #7844F2;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5% 0.8%;
+    font-size: 1vw;
+    float: right;
+}
+
+.topbar a.active {
+    color: #C967F0;
+}
+
+/* Source for centering https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text */
+.titletext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 4vw;
+    transform: translate(-50%, -50%);
+    color: #41DCE8;
+}
+
+.fadeImg{
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    width: 100%;
+    height: 20%;
+}
+
+.text {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.text h1{
+    color: #7844F2;
+    font-size: 4vw;
+}
+
+.text p{
+    color: #C967F0;
+    font-size: 1.3vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.preview{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2%;
+}
+
+.preview img{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.preview a{
+    color: #449FF2;
+    /*background-color: #495ADB;*/
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.footer{
+    background-color: #252525;
+    position:absolute;
+    
+    left:0;
+    width:100%;
+    height: 5%;
+    overflow: hidden;
+    z-index: 999;
+    color: #C967F0;
+    text-align: left;
+}
+
+.footer a{
+    font-size: 1vw;
+    color: #C967F0;
+    margin-left: 35%;
+}
+
+.footer a img{
+    
+
+    padding: 0.5% 0.8%;
+    float: right;
+}
+
+.paragraph p {
+    color: #C967F0;
+}
+
+.paragraph h1 {
+    color: #7844F2;
+}
+
+.paragraph h3 {
+    color: #7844F2;
+}
