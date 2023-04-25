@@ -1,0 +1,37 @@
+/*html * {
+    font-family: 'Helvetica', 'Arial', sans-serif !important;
+}*/
+
+p {
+    font-size: 110%;
+    color: #D4D4D4 !important;
+}
+
+h1 {
+    color: #D4D4D4 !important;
+}
+
+h4 {
+    color: #CE9178 !important;
+}
+
+.paragraph-header{
+    color: #D4D4D4 !important;
+}
+
+body {
+    background-color: #1E1E1E !important;
+}
+
+.navbar-dark{
+    background-color: #252526;
+}
+
+.navbar-dark .navbar-brand{
+    color: #D4D4D4;
+}
+
+.special-links{
+    color: #569CD6;
+    text-decoration: none;
+}
