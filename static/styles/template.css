@@ -11,8 +11,20 @@ h1 {
     color: #D4D4D4 !important;
 }
 
+h2 {
+    color: #D4D4D4 !important;
+}
+
 h4 {
     color: #CE9178 !important;
+}
+
+footer{
+    background-color: #252526;
+}
+
+.social{
+    float: right;
 }
 
 .paragraph-header{
