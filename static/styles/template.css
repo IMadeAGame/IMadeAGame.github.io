@@ -1,18 +1,21 @@
-/*html * {
-    font-family: 'Helvetica', 'Arial', sans-serif !important;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+html * {
+    font-family: 'Roboto' !important;
+    letter-spacing: 2px;
+}
 
 p {
     font-size: 110%;
-    color: #D4D4D4 !important;
+    color: #ffffff !important;
 }
 
 h1 {
-    color: #D4D4D4 !important;
+    color: #ffffff !important;
 }
 
 h2 {
-    color: #D4D4D4 !important;
+    color: #ffffff !important;
 }
 
 h4 {
@@ -20,7 +23,7 @@ h4 {
 }
 
 footer{
-    background-color: #252526;
+    background-color: #000000;
 }
 
 .social{
@@ -28,19 +31,49 @@ footer{
 }
 
 .paragraph-header{
-    color: #D4D4D4 !important;
+    color: #ffffff !important;
 }
 
 body {
-    background-color: #1E1E1E !important;
+    min-height: 100vh; 
+    background: radial-gradient(ellipse at bottom, #0d1d31, #0c0d13);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
 }
 
 .navbar-dark{
-    background-color: #252526;
+    background-color: #0000005f;
+}
+
+nav .navbar-nav li a{
+color: #cccccc !important;
 }
 
 .navbar-dark .navbar-brand{
-    color: #D4D4D4;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #569CD6 !important;
 }
 
 .special-links{
